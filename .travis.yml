@@ -3,3 +3,4 @@ node_js:
   - '6.12.0'
   - '8.9.1'
 script: npm test
+install: travis_wait mvn install
