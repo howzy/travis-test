@@ -1,0 +1,28 @@
+{
+  "name": "travis-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/howzy/travis-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/howzy/travis-test/issues"
+  },
+  "homepage": "https://github.com/howzy/travis-test#readme",
+  "devDependencies": {
+    "mocha": "^4.0.1",
+    "should": "^13.1.3",
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
